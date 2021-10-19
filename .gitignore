@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Application secrets
-.env.develop
+.env.dev
