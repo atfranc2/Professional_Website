@@ -14,15 +14,17 @@ services:
       - db
   db:
     image: mysql:5.7
+    build: ./mysql/
     ports:
-      - 3308:3308
+      - 8001:3306
     restart: always
     environment:
       MYSQL_DATABASE: professional_website
-      MYSQL_USER: admin
+      MYSQL_USER: root
       MYSQL_PASSWORD: 9999
       MYSQL_ROOT_PASSWORD: 9999
     volumes:
       - mysql_data:/var/lib/mysql
+      - ./mysql-init.sql:/tmp/mysql-init.sql
 volumes:
-  mysql_data:
+  mysql_data: {}
