@@ -20,7 +20,7 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: professional_website
-      MYSQL_USER: root
+      MYSQL_USER: admin
       MYSQL_PASSWORD: 9999
       MYSQL_ROOT_PASSWORD: 9999
     volumes:

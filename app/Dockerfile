@@ -21,3 +21,6 @@ RUN apk del build-deps
 
 # copy project
 COPY . .
+
+# run entrypoint.sh
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
