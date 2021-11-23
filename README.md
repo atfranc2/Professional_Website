@@ -9,3 +9,4 @@ Development Resources:
 - https://www.foadlind.com/articles/dockerize-django-mysql-project.html
 - https://medium.com/@minghz42/docker-setup-for-django-on-mysql-1f063c9d16a0
 - https://www.fullstackpython.com/green-unicorn-gunicorn.html
+- https://www.rockyourcode.com/run-docker-nginx-as-non-root-user/
